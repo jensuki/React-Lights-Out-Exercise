@@ -107,9 +107,12 @@ function Board({ nrows = 5, ncols = 5, chanceLightStartsOn = 0.25 }) {
 
   // TODO
   return (
-    <table className="board">
-      <tbody>{tableBoard}</tbody>
-    </table>
+    <div className="Board">
+      <h2>Lights Out</h2>
+      <table className="board">
+        <tbody>{tableBoard}</tbody>
+      </table>
+    </div>
   )
 }
 
